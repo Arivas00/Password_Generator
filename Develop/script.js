@@ -41,9 +41,20 @@ function writePassword() {
       }
   
       if (lowerCase === false && upperCase === false && numeric === false && specialChar === false) {
-        alert("Select a character type!")
+        alert("Select a character type!");
       }
     }
+
+    var userPassword = "";
+
+    for(var i = 0; i <= passLength; i++) {
+
+      index = Math.floor(Math.random() * (userArr.length - 1))
+      userPassword = userPassword + userArr[index];
+
+      console.log(userPassword);
+    } 
+
     }
 
   var password = generatePassword();
