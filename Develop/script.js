@@ -17,6 +17,7 @@ function writePassword() {
 
     if (isNaN(passLength) || passLength < 8 || passLength > 128) {
       alert("Please select a proper length between 8-128 characters")
+      return userPassword = "";
     } else {
   
       var lowerCase = confirm("Do you want lowercase letters?");
@@ -42,6 +43,7 @@ function writePassword() {
   
       if (lowerCase === false && upperCase === false && numeric === false && specialChar === false) {
         alert("Select a character type!");
+        return userPassword = "";
       }
     }
 
@@ -52,8 +54,9 @@ function writePassword() {
       index = Math.floor(Math.random() * (userArr.length - 1))
       userPassword = userPassword + userArr[index];
 
-      console.log(userPassword);
     } 
+
+    return userPassword;
 
     }
 
