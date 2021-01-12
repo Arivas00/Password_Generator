@@ -12,7 +12,7 @@ Create an application to randomly generate a strong password to meet certain cri
 ```
 When the generate password button is clicked
 You are presented with prompts to select password criteria
-You are prompted to slect a password length that is at least 8 characters and no more than 128 characters
+You are prompted to select a password length that is at least 8 characters and no more than 128 characters
 When you are prompted to select character types
 You can select lowercase, uppercase, numeric, and/or special characters
 When each prompted is answered
