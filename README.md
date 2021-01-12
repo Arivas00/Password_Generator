@@ -16,14 +16,13 @@ You are prompted to select a password length that is at least 8 characters and n
 When you are prompted to select character types
 You can select lowercase, uppercase, numeric, and/or special characters
 When each prompted is answered
-Inputs are validated and at least one character type should be selected otherwise you will be prompted to select a character type
+Inputs are validated and at least one character type should be selected
+Otherwise you will be prompted to select a character type
 When all prompts are answered
 A password will be generated that matched selected criteria
 When the password is generated it is displayed and written to the page
 
-
 ```
-
 ## Deployed website 
 
 ### (https://arivas00.github.io/Password_Generator/)
